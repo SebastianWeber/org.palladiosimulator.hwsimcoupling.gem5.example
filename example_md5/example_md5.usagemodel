@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usagemodel:UsageModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stoex="http://sdq.ipd.uka.de/StochasticExpressions/2.2" xmlns:usagemodel="http://palladiosimulator.org/PalladioComponentModel/UsageModel/5.2">
+  <usageScenario_UsageModel id="_LPnI8CHdEd6lJo4DCALHMw" entityName="HashingUsageScenario">
+    <scenarioBehaviour_UsageScenario id="_LPwS4CHdEd6lJo4DCALHMw" entityName="defaultUsageScenarioBehaviour">
+      <actions_ScenarioBehaviour xsi:type="usagemodel:Start" id="_LPwS4SHdEd6lJo4DCALHMw" successor="_Y3OAEYdQEeyOtZbRxJx64w"/>
+      <actions_ScenarioBehaviour xsi:type="usagemodel:Stop" id="_LPwS4iHdEd6lJo4DCALHMw" predecessor="_Y3OAEYdQEeyOtZbRxJx64w"/>
+      <actions_ScenarioBehaviour xsi:type="usagemodel:Branch" id="_Y3OAEYdQEeyOtZbRxJx64w" successor="_LPwS4iHdEd6lJo4DCALHMw" predecessor="_LPwS4SHdEd6lJo4DCALHMw">
+        <branchTransitions_Branch branchProbability="25.0">
+          <branchedBehaviour_BranchTransition id="_fkAoMIdQEeyOtZbRxJx64w">
+            <actions_ScenarioBehaviour xsi:type="usagemodel:EntryLevelSystemCall" id="_fy2VcIdQEeyOtZbRxJx64w" successor="_wbeNM4dTEey9KvtSoLRTww" predecessor="_v4yW5IdTEey9KvtSoLRTww">
+              <providedRole_EntryLevelSystemCall href="example_md5.system#_-r1fUCHcEd6lJo4DCALHMw"/>
+              <operationSignature__EntryLevelSystemCall href="example_md5.repository#_AqTkYIc1EeyF2JJAihKvrQ"/>
+              <inputParameterUsages_EntryLevelSystemCall>
+                <variableCharacterisation_VariableUsage type="VALUE">
+                  <specification_VariableCharacterisation specification="&quot;main&quot;"/>
+                </variableCharacterisation_VariableUsage>
+                <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="method"/>
+              </inputParameterUsages_EntryLevelSystemCall>
+              <inputParameterUsages_EntryLevelSystemCall>
+                <variableCharacterisation_VariableUsage type="VALUE">
+                  <specification_VariableCharacterisation specification="&quot;file_1MB.txt&quot;"/>
+                </variableCharacterisation_VariableUsage>
+                <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="parameter"/>
+              </inputParameterUsages_EntryLevelSystemCall>
+            </actions_ScenarioBehaviour>
+            <actions_ScenarioBehaviour xsi:type="usagemodel:Start" id="_v4yW5IdTEey9KvtSoLRTww" successor="_fy2VcIdQEeyOtZbRxJx64w"/>
+            <actions_ScenarioBehaviour xsi:type="usagemodel:Stop" id="_wbeNM4dTEey9KvtSoLRTww" predecessor="_fy2VcIdQEeyOtZbRxJx64w"/>
+          </branchedBehaviour_BranchTransition>
+        </branchTransitions_Branch>
+        <branchTransitions_Branch branchProbability="25.0">
+          <branchedBehaviour_BranchTransition id="_fkAoMIdQEeyOtZbRxJx64x">
+            <actions_ScenarioBehaviour xsi:type="usagemodel:EntryLevelSystemCall" id="_fy2VcIdQEeyOtZbRxJx64x" successor="_2SxXw4dTEey9KvtSoLRTww" predecessor="_2lwlNIdTEey9KvtSoLRTww">
+              <providedRole_EntryLevelSystemCall href="example_md5.system#_-r1fUCHcEd6lJo4DCALHMw"/>
+              <operationSignature__EntryLevelSystemCall href="example_md5.repository#_AqTkYIc1EeyF2JJAihKvrQ"/>
+              <inputParameterUsages_EntryLevelSystemCall>
+                <variableCharacterisation_VariableUsage type="VALUE">
+                  <specification_VariableCharacterisation specification="&quot;main&quot;"/>
+                </variableCharacterisation_VariableUsage>
+                <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="method"/>
+              </inputParameterUsages_EntryLevelSystemCall>
+              <inputParameterUsages_EntryLevelSystemCall>
+                <variableCharacterisation_VariableUsage type="VALUE">
+                  <specification_VariableCharacterisation specification="&quot;file_2MB.txt&quot;"/>
+                </variableCharacterisation_VariableUsage>
+                <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="parameter"/>
+              </inputParameterUsages_EntryLevelSystemCall>
+            </actions_ScenarioBehaviour>
+            <actions_ScenarioBehaviour xsi:type="usagemodel:Stop" id="_2SxXw4dTEey9KvtSoLRTww" predecessor="_fy2VcIdQEeyOtZbRxJx64x"/>
+            <actions_ScenarioBehaviour xsi:type="usagemodel:Start" id="_2lwlNIdTEey9KvtSoLRTww" successor="_fy2VcIdQEeyOtZbRxJx64x"/>
+          </branchedBehaviour_BranchTransition>
+        </branchTransitions_Branch>
+        <branchTransitions_Branch branchProbability="50.0">
+          <branchedBehaviour_BranchTransition id="_fkAoMIdQEeyOtZbRxJx64y">
+            <actions_ScenarioBehaviour xsi:type="usagemodel:EntryLevelSystemCall" id="_fy2VcIdQEeyOtZbRxJx64y" successor="_8AFf44dTEey9KvtSoLRTww" predecessor="_7fD2dIdTEey9KvtSoLRTww">
+              <providedRole_EntryLevelSystemCall href="example_md5.system#_-r1fUCHcEd6lJo4DCALHMw"/>
+              <operationSignature__EntryLevelSystemCall href="example_md5.repository#_AqTkYIc1EeyF2JJAihKvrQ"/>
+              <inputParameterUsages_EntryLevelSystemCall>
+                <variableCharacterisation_VariableUsage type="VALUE">
+                  <specification_VariableCharacterisation specification="&quot;main&quot;"/>
+                </variableCharacterisation_VariableUsage>
+                <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="method"/>
+              </inputParameterUsages_EntryLevelSystemCall>
+              <inputParameterUsages_EntryLevelSystemCall>
+                <variableCharacterisation_VariableUsage type="VALUE">
+                  <specification_VariableCharacterisation specification="&quot;file_3MB.txt&quot;"/>
+                </variableCharacterisation_VariableUsage>
+                <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="parameter"/>
+              </inputParameterUsages_EntryLevelSystemCall>
+            </actions_ScenarioBehaviour>
+            <actions_ScenarioBehaviour xsi:type="usagemodel:Start" id="_7fD2dIdTEey9KvtSoLRTww" successor="_fy2VcIdQEeyOtZbRxJx64y"/>
+            <actions_ScenarioBehaviour xsi:type="usagemodel:Stop" id="_8AFf44dTEey9KvtSoLRTww" predecessor="_fy2VcIdQEeyOtZbRxJx64y"/>
+          </branchedBehaviour_BranchTransition>
+        </branchTransitions_Branch>
+      </actions_ScenarioBehaviour>
+    </scenarioBehaviour_UsageScenario>
+    <workload_UsageScenario xsi:type="usagemodel:ClosedWorkload" population="1">
+      <thinkTime_ClosedWorkload specification="100.0"/>
+    </workload_UsageScenario>
+  </usageScenario_UsageModel>
+</usagemodel:UsageModel>
