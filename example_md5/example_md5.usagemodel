@@ -18,7 +18,7 @@
               </inputParameterUsages_EntryLevelSystemCall>
               <inputParameterUsages_EntryLevelSystemCall>
                 <variableCharacterisation_VariableUsage type="VALUE">
-                  <specification_VariableCharacterisation specification="&quot;file_1MB.txt&quot;"/>
+                  <specification_VariableCharacterisation specification="&quot;local:example_md5_gem5/data/file_1MB.txt&quot;"/>
                 </variableCharacterisation_VariableUsage>
                 <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="parameter"/>
               </inputParameterUsages_EntryLevelSystemCall>
@@ -40,7 +40,7 @@
               </inputParameterUsages_EntryLevelSystemCall>
               <inputParameterUsages_EntryLevelSystemCall>
                 <variableCharacterisation_VariableUsage type="VALUE">
-                  <specification_VariableCharacterisation specification="&quot;file_2MB.txt&quot;"/>
+                  <specification_VariableCharacterisation specification="&quot;local:example_md5_gem5/data/file_2MB.txt&quot;"/>
                 </variableCharacterisation_VariableUsage>
                 <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="parameter"/>
               </inputParameterUsages_EntryLevelSystemCall>
@@ -62,7 +62,7 @@
               </inputParameterUsages_EntryLevelSystemCall>
               <inputParameterUsages_EntryLevelSystemCall>
                 <variableCharacterisation_VariableUsage type="VALUE">
-                  <specification_VariableCharacterisation specification="&quot;file_3MB.txt&quot;"/>
+                  <specification_VariableCharacterisation specification="&quot;local:example_md5_gem5/data/file_3MB.txt&quot;"/>
                 </variableCharacterisation_VariableUsage>
                 <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="parameter"/>
               </inputParameterUsages_EntryLevelSystemCall>
@@ -73,8 +73,8 @@
         </branchTransitions_Branch>
       </actions_ScenarioBehaviour>
     </scenarioBehaviour_UsageScenario>
-    <workload_UsageScenario xsi:type="usagemodel:ClosedWorkload" population="1">
-      <thinkTime_ClosedWorkload specification="100.0"/>
+    <workload_UsageScenario xsi:type="usagemodel:OpenWorkload">
+      <interArrivalTime_OpenWorkload specification="0.01"/>
     </workload_UsageScenario>
   </usageScenario_UsageModel>
 </usagemodel:UsageModel>

@@ -12,13 +12,13 @@
         <resourceCall__Action id="__i9qYIdLEeyOtZbRxJx64w" resourceRequiredRole__ResourceCall="_RcQtk4dUEeymp8TnRpSJRg">
           <inputVariableUsages__CallAction>
             <variableCharacterisation_VariableUsage type="VALUE">
-              <specification_VariableCharacterisation specification="&quot;local:example_md5/data/simple.py&quot;"/>
+              <specification_VariableCharacterisation specification="&quot;local:example_md5_gem5/data/simple.py&quot;"/>
             </variableCharacterisation_VariableUsage>
             <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="system"/>
           </inputVariableUsages__CallAction>
           <inputVariableUsages__CallAction>
             <variableCharacterisation_VariableUsage type="VALUE">
-              <specification_VariableCharacterisation specification="&quot;local:example_md5/data/checksum&quot;"/>
+              <specification_VariableCharacterisation specification="&quot;local:example_md5_gem5/data/checksum&quot;"/>
             </variableCharacterisation_VariableUsage>
             <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="executable"/>
           </inputVariableUsages__CallAction>
