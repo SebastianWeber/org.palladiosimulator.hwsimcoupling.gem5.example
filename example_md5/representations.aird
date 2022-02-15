@@ -11,6 +11,7 @@
     <semanticResources>example_md5.usagemodel</semanticResources>
     <semanticResources>example_md5.resourceenvironment</semanticResources>
     <semanticResources>My.resourceenvironment</semanticResources>
+    <semanticResources>pathmap://HWSIM_SCHEDULER_MODELS/HWSimCoupling.resourcetype</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_FCoWwCF-EeqYabGLKRlfzA">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.palladiosimulator.editors.sirius.allocation/description/allocation.odesign#//@ownedViewpoints[name='Allocation']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_ytH30Ic0EeyF2JJAihKvrQ" name="new Allocation Diagram" repPath="#_ytHQwIc0EeyF2JJAihKvrQ" changeId="4537c504-ba76-4f20-8ba4-f90916d3e72e">
@@ -765,23 +766,23 @@
         </ownedDiagramElements>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_6aP7l4c0EeyF2JJAihKvrQ" name="&lt;&lt;ClosedWorkload>>">
-        <target xmi:type="usagemodel:ClosedWorkload" href="example_md5.usagemodel#//@usageScenario_UsageModel.0/@workload_UsageScenario"/>
-        <semanticElements xmi:type="usagemodel:ClosedWorkload" href="example_md5.usagemodel#//@usageScenario_UsageModel.0/@workload_UsageScenario"/>
+        <target xmi:type="usagemodel:OpenWorkload" href="example_md5.usagemodel#//@usageScenario_UsageModel.0/@workload_UsageScenario"/>
+        <semanticElements xmi:type="usagemodel:OpenWorkload" href="example_md5.usagemodel#//@usageScenario_UsageModel.0/@workload_UsageScenario"/>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_6aP7mIc0EeyF2JJAihKvrQ" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="252,233,79" foregroundColor="252,233,79">
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.usage/description/usage.odesign#//@ownedViewpoints[name='UsageModel']/@ownedRepresentations[name='UsageModel%20Diagram']/@defaultLayer/@containerMappings[name='usageScenario']/@subContainerMappings[name='closedWorkload']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.usage/description/usage.odesign#//@ownedViewpoints[name='UsageModel']/@ownedRepresentations[name='UsageModel%20Diagram']/@defaultLayer/@containerMappings[name='usageScenario']/@subContainerMappings[name='closedWorkload']"/>
         <ownedElements xmi:type="diagram:DNodeListElement" uid="_6aQioIc0EeyF2JJAihKvrQ" name="Population: 1">
-          <target xmi:type="usagemodel:ClosedWorkload" href="example_md5.usagemodel#//@usageScenario_UsageModel.0/@workload_UsageScenario"/>
-          <semanticElements xmi:type="usagemodel:ClosedWorkload" href="example_md5.usagemodel#//@usageScenario_UsageModel.0/@workload_UsageScenario"/>
+          <target xmi:type="usagemodel:OpenWorkload" href="example_md5.usagemodel#//@usageScenario_UsageModel.0/@workload_UsageScenario"/>
+          <semanticElements xmi:type="usagemodel:OpenWorkload" href="example_md5.usagemodel#//@usageScenario_UsageModel.0/@workload_UsageScenario"/>
           <ownedStyle xmi:type="diagram:Note" uid="_6aS-4Ic0EeyF2JJAihKvrQ">
             <description xmi:type="style:NoteDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.usage/description/usage.odesign#//@ownedViewpoints[name='UsageModel']/@ownedRepresentations[name='UsageModel%20Diagram']/@defaultLayer/@containerMappings[name='usageScenario']/@subContainerMappings[name='closedWorkload']/@subNodeMappings[name='population']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.usage/description/usage.odesign#//@ownedViewpoints[name='UsageModel']/@ownedRepresentations[name='UsageModel%20Diagram']/@defaultLayer/@containerMappings[name='usageScenario']/@subContainerMappings[name='closedWorkload']/@subNodeMappings[name='population']"/>
         </ownedElements>
         <ownedElements xmi:type="diagram:DNodeListElement" uid="_6aTl8Ic0EeyF2JJAihKvrQ" name="Think Time: 100.0">
-          <target xmi:type="usagemodel:ClosedWorkload" href="example_md5.usagemodel#//@usageScenario_UsageModel.0/@workload_UsageScenario"/>
-          <semanticElements xmi:type="usagemodel:ClosedWorkload" href="example_md5.usagemodel#//@usageScenario_UsageModel.0/@workload_UsageScenario"/>
+          <target xmi:type="usagemodel:OpenWorkload" href="example_md5.usagemodel#//@usageScenario_UsageModel.0/@workload_UsageScenario"/>
+          <semanticElements xmi:type="usagemodel:OpenWorkload" href="example_md5.usagemodel#//@usageScenario_UsageModel.0/@workload_UsageScenario"/>
           <ownedStyle xmi:type="diagram:Note" uid="_6aWCMIc0EeyF2JJAihKvrQ" labelAlignment="LEFT">
             <description xmi:type="style:NoteDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.usage/description/usage.odesign#//@ownedViewpoints[name='UsageModel']/@ownedRepresentations[name='UsageModel%20Diagram']/@defaultLayer/@containerMappings[name='usageScenario']/@subContainerMappings[name='closedWorkload']/@subNodeMappings[name='thinkTime']/@style"/>
           </ownedStyle>

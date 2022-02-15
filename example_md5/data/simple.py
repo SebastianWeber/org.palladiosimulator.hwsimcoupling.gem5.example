@@ -26,19 +26,19 @@ class L1Cache(Cache):
         self.mem_side = bus.cpu_side_ports
     
 class L1ICache(L1Cache):
-    size = '16kB'
+    size = '128kB'
 
     def connectCPU(self, cpu):
         self.cpu_side = cpu.icache_port
 
 class L1DCache(L1Cache):
-    size = '64kB'
+    size = '128kB'
 
     def connectCPU(self, cpu):
         self.cpu_side = cpu.dcache_port
     
 class L2Cache(Cache):
-    size = '256kB'
+    size = '1MB'
     assoc = 8
     tag_latency = 20
     data_latency = 20

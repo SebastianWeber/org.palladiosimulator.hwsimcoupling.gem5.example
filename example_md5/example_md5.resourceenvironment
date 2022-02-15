@@ -2,8 +2,8 @@
 <resourceenvironment:ResourceEnvironment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2" entityName="HashingResourceEnvironment">
   <resourceContainer_ResourceEnvironment id="_GAeeUCpXEeKNWc2UWjbmuw" entityName="AppServer">
     <activeResourceSpecifications_ResourceContainer id="_KFRwgCpXEeKNWc2UWjbmuw">
-      <schedulingPolicy href="pathmap://GEM5_SCHEDULER_MODELS/Gem5Scheduler.resourcetype#org.palladiosimulator.hwsimcoupling.scheduler.gem5.ProcessorSharing"/>
-      <activeResourceType_ActiveResourceSpecification href="pathmap://GEM5_SCHEDULER_MODELS/Gem5Scheduler.resourcetype#_d7xtMlRaEeydLN_tauPTfQ"/>
+      <schedulingPolicy href="pathmap://HWSIM_SCHEDULER_MODELS/HWSimCoupling.resourcetype#org.palladiosimulator.hwsimcoupling.scheduler.Delay"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://HWSIM_SCHEDULER_MODELS/HWSimCoupling.resourcetype#HWSimCouplingCPU"/>
       <processingRate_ProcessingResourceSpecification specification="1"/>
     </activeResourceSpecifications_ResourceContainer>
   </resourceContainer_ResourceEnvironment>
