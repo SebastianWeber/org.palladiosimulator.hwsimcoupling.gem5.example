@@ -34,18 +34,6 @@
             </variableCharacterisation_VariableUsage>
             <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="parameter"/>
           </inputVariableUsages__CallAction>
-          <inputVariableUsages__CallAction>
-            <variableCharacterisation_VariableUsage type="VALUE">
-              <specification_VariableCharacterisation specification="&quot;gem5&quot;"/>
-            </variableCharacterisation_VariableUsage>
-            <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="profile"/>
-          </inputVariableUsages__CallAction>
-          <inputVariableUsages__CallAction>
-            <variableCharacterisation_VariableUsage type="VALUE">
-              <specification_VariableCharacterisation specification="&quot;gem5&quot;"/>
-            </variableCharacterisation_VariableUsage>
-            <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="hwsim"/>
-          </inputVariableUsages__CallAction>
           <signature__ResourceCall href="pathmap://HWSIM_SCHEDULER_MODELS/HWSimCoupling.resourcetype#HWSimCouplingCPUSignature"/>
           <numberOfCalls__ResourceCall specification="1"/>
         </resourceCall__Action>

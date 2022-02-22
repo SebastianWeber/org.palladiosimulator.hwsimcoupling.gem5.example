@@ -3,7 +3,7 @@
   <targetResourceEnvironment_Allocation href="example_md5.resourceenvironment#/"/>
   <system_Allocation href="example_md5.system#_84D0kCHcEd6lJo4DCALHMw"/>
   <allocationContexts_Allocation id="_gmLeoCsoEeK79cj3OHITwQ" entityName="Allocation_Hashing">
-    <resourceContainer_AllocationContext href="example_md5.resourceenvironment#AppServerGem5"/>
+    <resourceContainer_AllocationContext href="example_md5.resourceenvironment#AppServer"/>
     <assemblyContext_AllocationContext href="example_md5.system#_9c3KwCHcEd6lJo4DCALHMw"/>
   </allocationContexts_Allocation>
 </allocation:Allocation>

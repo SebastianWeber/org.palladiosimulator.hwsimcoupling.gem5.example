@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" id="_dqFLECHbEd6tG9VclJz3cw" entityName="defaultRepository">
+  <components__Repository xsi:type="repository:BasicComponent" id="_ji6iAIc1EeyF2JJAihKvrQ" entityName="HashingComponent">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_nAnX8Yc1EeyF2JJAihKvrQ" entityName="Provided_Hashing_HashingComponent" providedInterface__OperationProvidedRole="_8xh8AIc0EeyF2JJAihKvrQ"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_vHy6d4c1EeyF2JJAihKvrQ" describedService__SEFF="_AqTkYIc1EeyF2JJAihKvrQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_v-QBUoc1EeyF2JJAihKvrQ" entityName="start" successor_AbstractAction="_0roUfIdLEeyOtZbRxJx64w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_wnrY0Ic1EeyF2JJAihKvrQ" entityName="stop" predecessor_AbstractAction="_0roUfIdLEeyOtZbRxJx64w"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_0roUfIdLEeyOtZbRxJx64w" entityName="hash" predecessor_AbstractAction="_v-QBUoc1EeyF2JJAihKvrQ" successor_AbstractAction="_wnrY0Ic1EeyF2JJAihKvrQ">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="size.VALUE*3.333333333E-9"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_8xh8AIc0EeyF2JJAihKvrQ" entityName="HashingInterface">
+    <signatures__OperationInterface id="_AqTkYIc1EeyF2JJAihKvrQ" entityName="hash_md5"/>
+  </interfaces__Repository>
+</repository:Repository>

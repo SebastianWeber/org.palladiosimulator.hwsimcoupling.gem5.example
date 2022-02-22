@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_84D0kCHcEd6lJo4DCALHMw" entityName="HashingSystem">
+  <assemblyContexts__ComposedStructure id="_9c3KwCHcEd6lJo4DCALHMw" entityName="Assembly_Hashing">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="example_md5.repository#_ji6iAIc1EeyF2JJAihKvrQ"/>
+  </assemblyContexts__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="__VHF0CHcEd6lJo4DCALHMw" entityName="ProvDelegation Provided_AnInterface -> Provided_AnInterface_AComponent" outerProvidedRole_ProvidedDelegationConnector="_-r1fUCHcEd6lJo4DCALHMw" assemblyContext_ProvidedDelegationConnector="_9c3KwCHcEd6lJo4DCALHMw">
+    <innerProvidedRole_ProvidedDelegationConnector href="example_md5.repository#_nAnX8Yc1EeyF2JJAihKvrQ"/>
+  </connectors__ComposedStructure>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_-r1fUCHcEd6lJo4DCALHMw" entityName="Provided_Hashing">
+    <providedInterface__OperationProvidedRole href="example_md5.repository#_8xh8AIc0EeyF2JJAihKvrQ"/>
+  </providedRoles_InterfaceProvidingEntity>
+</system:System>

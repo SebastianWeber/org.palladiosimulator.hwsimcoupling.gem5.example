@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resourceenvironment:ResourceEnvironment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2" entityName="HashingResourceEnvironment">
-  <resourceContainer_ResourceEnvironment id="AppServerGem5" entityName="AppServer">
-    <activeResourceSpecifications_ResourceContainer id="_KFRwgCpXEeKNWc2UWjbmuw">
-      <schedulingPolicy href="pathmap://HWSIM_SCHEDULER_MODELS/HWSimCoupling.resourcetype#org.palladiosimulator.hwsimcoupling.scheduler.FCFS"/>
-      <activeResourceType_ActiveResourceSpecification href="pathmap://HWSIM_SCHEDULER_MODELS/HWSimCoupling.resourcetype#HWSimCouplingCPU"/>
+  <resourceContainer_ResourceEnvironment id="AppServer" entityName="AppServer">
+    <activeResourceSpecifications_ResourceContainer id="_NML2gJPsEeyEVuy5hNikeA">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#FCFS"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
       <processingRate_ProcessingResourceSpecification specification="1"/>
     </activeResourceSpecifications_ResourceContainer>
   </resourceContainer_ResourceEnvironment>
