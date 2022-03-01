@@ -52,6 +52,6 @@ with open("m5out/ftrace.system.cpu.main", "w") as trace_main:
 
     trace_main.write(cpustripped)
 
-    print("Demand:" + "CPU:" + cpustripped + ";" + "HDD:" + str(hddreadstripped + hddwritestripped))
+    print("Demand:" + "CPU:" + cpustripped + "&" + "HDD:" + str(hddreadstripped + hddwritestripped))
 
 
