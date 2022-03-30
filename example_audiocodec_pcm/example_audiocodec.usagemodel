@@ -5,58 +5,42 @@
       <actions_ScenarioBehaviour xsi:type="usagemodel:Start" id="_LPwS4SHdEd6lJo4DCALHMw" successor="_Y3OAEYdQEeyOtZbRxJx64w"/>
       <actions_ScenarioBehaviour xsi:type="usagemodel:Stop" id="_LPwS4iHdEd6lJo4DCALHMw" predecessor="_Y3OAEYdQEeyOtZbRxJx64w"/>
       <actions_ScenarioBehaviour xsi:type="usagemodel:Branch" id="_Y3OAEYdQEeyOtZbRxJx64w" successor="_LPwS4iHdEd6lJo4DCALHMw" predecessor="_LPwS4SHdEd6lJo4DCALHMw">
-        <branchTransitions_Branch branchProbability="25.0">
+        <branchTransitions_Branch branchProbability="50.0">
           <branchedBehaviour_BranchTransition id="1_fkAoMIdQEeyOtZbRxJx64w">
             <actions_ScenarioBehaviour xsi:type="usagemodel:EntryLevelSystemCall" id="1_fy2VcIdQEeyOtZbRxJx64w" successor="1_wbeNM4dTEey9KvtSoLRTww" predecessor="1_v4yW5IdTEey9KvtSoLRTww">
-              <providedRole_EntryLevelSystemCall href="example_md5.system#_-r1fUCHcEd6lJo4DCALHMw"/>
-              <operationSignature__EntryLevelSystemCall href="example_md5.repository#_AqTkYIc1EeyF2JJAihKvrQ"/>
+              <providedRole_EntryLevelSystemCall href="example_audiocodec.system#_-r1fUCHcEd6lJo4DCALHMw"/>
+              <operationSignature__EntryLevelSystemCall href="example_audiocodec.repository#_AqTkYIc1EeyF2JJAihKvrQ"/>
               <inputParameterUsages_EntryLevelSystemCall>
                 <variableCharacterisation_VariableUsage type="VALUE">
-                  <specification_VariableCharacterisation specification="1000000"/>
+                  <specification_VariableCharacterisation specification="1"/>
                 </variableCharacterisation_VariableUsage>
-                <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="size"/>
+                <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="length"/>
               </inputParameterUsages_EntryLevelSystemCall>
             </actions_ScenarioBehaviour>
             <actions_ScenarioBehaviour xsi:type="usagemodel:Start" id="1_v4yW5IdTEey9KvtSoLRTww" successor="1_fy2VcIdQEeyOtZbRxJx64w"/>
             <actions_ScenarioBehaviour xsi:type="usagemodel:Stop" id="1_wbeNM4dTEey9KvtSoLRTww" predecessor="1_fy2VcIdQEeyOtZbRxJx64w"/>
           </branchedBehaviour_BranchTransition>
         </branchTransitions_Branch>
-        <branchTransitions_Branch branchProbability="25.0">
+        <branchTransitions_Branch branchProbability="50.0">
           <branchedBehaviour_BranchTransition id="2_fkAoMIdQEeyOtZbRxJx64w">
             <actions_ScenarioBehaviour xsi:type="usagemodel:EntryLevelSystemCall" id="2_fy2VcIdQEeyOtZbRxJx64w" successor="2_wbeNM4dTEey9KvtSoLRTww" predecessor="2_v4yW5IdTEey9KvtSoLRTww">
-              <providedRole_EntryLevelSystemCall href="example_md5.system#_-r1fUCHcEd6lJo4DCALHMw"/>
-              <operationSignature__EntryLevelSystemCall href="example_md5.repository#_AqTkYIc1EeyF2JJAihKvrQ"/>
+              <providedRole_EntryLevelSystemCall href="example_audiocodec.system#_-r1fUCHcEd6lJo4DCALHMw"/>
+              <operationSignature__EntryLevelSystemCall href="example_audiocodec.repository#_AqTkYIc1EeyF2JJAihKvrQ"/>
               <inputParameterUsages_EntryLevelSystemCall>
                 <variableCharacterisation_VariableUsage type="VALUE">
-                  <specification_VariableCharacterisation specification="2000000"/>
+                  <specification_VariableCharacterisation specification="2"/>
                 </variableCharacterisation_VariableUsage>
-                <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="size"/>
+                <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="length"/>
               </inputParameterUsages_EntryLevelSystemCall>
             </actions_ScenarioBehaviour>
             <actions_ScenarioBehaviour xsi:type="usagemodel:Start" id="2_v4yW5IdTEey9KvtSoLRTww" successor="2_fy2VcIdQEeyOtZbRxJx64w"/>
             <actions_ScenarioBehaviour xsi:type="usagemodel:Stop" id="2_wbeNM4dTEey9KvtSoLRTww" predecessor="2_fy2VcIdQEeyOtZbRxJx64w"/>
           </branchedBehaviour_BranchTransition>
         </branchTransitions_Branch>
-        <branchTransitions_Branch branchProbability="50.0">
-          <branchedBehaviour_BranchTransition id="3_fkAoMIdQEeyOtZbRxJx64w">
-            <actions_ScenarioBehaviour xsi:type="usagemodel:EntryLevelSystemCall" id="3_fy2VcIdQEeyOtZbRxJx64w" successor="3_wbeNM4dTEey9KvtSoLRTww" predecessor="3_v4yW5IdTEey9KvtSoLRTww">
-              <providedRole_EntryLevelSystemCall href="example_md5.system#_-r1fUCHcEd6lJo4DCALHMw"/>
-              <operationSignature__EntryLevelSystemCall href="example_md5.repository#_AqTkYIc1EeyF2JJAihKvrQ"/>
-              <inputParameterUsages_EntryLevelSystemCall>
-                <variableCharacterisation_VariableUsage type="VALUE">
-                  <specification_VariableCharacterisation specification="3000000"/>
-                </variableCharacterisation_VariableUsage>
-                <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="size"/>
-              </inputParameterUsages_EntryLevelSystemCall>
-            </actions_ScenarioBehaviour>
-            <actions_ScenarioBehaviour xsi:type="usagemodel:Start" id="3_v4yW5IdTEey9KvtSoLRTww" successor="3_fy2VcIdQEeyOtZbRxJx64w"/>
-            <actions_ScenarioBehaviour xsi:type="usagemodel:Stop" id="3_wbeNM4dTEey9KvtSoLRTww" predecessor="3_fy2VcIdQEeyOtZbRxJx64w"/>
-          </branchedBehaviour_BranchTransition>
-        </branchTransitions_Branch>
       </actions_ScenarioBehaviour>
     </scenarioBehaviour_UsageScenario>
     <workload_UsageScenario xsi:type="usagemodel:OpenWorkload">
-      <interArrivalTime_OpenWorkload specification="0.01"/>
+      <interArrivalTime_OpenWorkload specification="0.24"/>
     </workload_UsageScenario>
   </usageScenario_UsageModel>
 </usagemodel:UsageModel>

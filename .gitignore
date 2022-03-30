@@ -1,3 +1,8 @@
+# executable for example_audiocodec_gem5/data/alacconvert not checked in
+# Build code from https://github.com/macosforge/alac with Pull Request 19 with the given makefile
+# and copy the resulting file alacconvert in the folder example_audiocodec_gem5/data/
+example_audiocodec_gem5/data/alacconvert
+
 # Compiled class file
 *.class
 

@@ -12,7 +12,7 @@ RUN pip install mypy
 
 # clone repo
 WORKDIR /usr/local/src
-RUN git clone https://gem5.googlesource.com/public/gem5
+RUN git clone --depth 1 --branch v21.1.0.2 https://gem5.googlesource.com/public/gem5
 
 # adapt to make function tracing available in system emulation mode
 RUN sed -i "456s/.*//"  gem5/src/cpu/simple/base.cc
